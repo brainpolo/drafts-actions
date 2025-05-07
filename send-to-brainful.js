@@ -7,9 +7,9 @@ credential.addPasswordField("password", "API Key");
 
 credential.authorize();
 
-// Endpoints subject to change - https://brainful.ai/api
-const BRAINFUL_ADD_URL = "https://brainful.ai/my/blocks/add";
-const VIEW_BLOCK_URL_BASE = "https://brainful.ai/@{username}/{block_luid}";
+// Endpoints subject to change - https://brainful.one/api
+const BRAINFUL_ADD_URL = "https://brainful.one/my/blocks/add";
+const VIEW_BLOCK_URL_BASE = "https://brainful.one/@{username}/{block_luid}";
 
 async function sendBlock() {
     let http = HTTP.create(); // Create HTTP object
