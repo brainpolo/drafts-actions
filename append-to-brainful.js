@@ -5,9 +5,9 @@ credential.addTextField("username", "Username");
 credential.addPasswordField("password", "API Key");
 credential.authorize();
 
-// Endpoints subject to change - https://brainful.ai/api
-const BRAINFUL_ADD_URL = "https://brainful.ai/my/blocks/append";
-const VIEW_BLOCK_URL_BASE = "https://brainful.ai/@{username}/{block_luid}";
+// Endpoints subject to change - https://brainful.one/api
+const BRAINFUL_ADD_URL = "https://brainful.one/my/blocks/append";
+const VIEW_BLOCK_URL_BASE = "https://brainful.one/@{username}/{block_luid}";
 
 // File path to store the last used identifier
 const filePath = "/last_used_identifier.txt";
